@@ -11,4 +11,8 @@ If you want to learn a bit more about traceroute (and tracert, which is basicall
 
 ## Demo 2
 
-This demo send a UDP packet from one python script to another one. More details on running it and the code itself is in the folder `demo2`.
+This demo sends a UDP packet from one python script to another one. More details on running it and the code itself is in the folder `demo2`.
+
+### Demo 2.5
+
+Here, I show NAT happening! The configuration I'm running the scripts on is the following: there are two machines on campus that I'm connecting to. Both of them are within the same general private network (the way we all are), but with a layer of NAT separating them. The exact architecture isn't known, but it's clear to see *some* NAT is happening, since the IP is changing!
